@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ishka\\Downloads\\New folder\\Part 3\\KhumaloCraft\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E43F335-9A92-41E3-B21F-59BE5F46E6CE}|KhumaloCraft\\KhumaloCraft.csproj|c:\\users\\ishka\\downloads\\new folder\\part 3\\khumalocraft\\khumalocraft\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E43F335-9A92-41E3-B21F-59BE5F46E6CE}|KhumaloCraft\\KhumaloCraft.csproj|solutionrelative:khumalocraft\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E43F335-9A92-41E3-B21F-59BE5F46E6CE}|KhumaloCraft\\KhumaloCraft.csproj|c:\\users\\ishka\\downloads\\new folder\\part 3\\khumalocraft\\khumalocraft\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E43F335-9A92-41E3-B21F-59BE5F46E6CE}|KhumaloCraft\\KhumaloCraft.csproj|solutionrelative:khumalocraft\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E43F335-9A92-41E3-B21F-59BE5F46E6CE}|KhumaloCraft\\KhumaloCraft.csproj|c:\\users\\ishka\\downloads\\new folder\\part 3\\khumalocraft\\khumalocraft\\migrations\\20240624000132_ishkarone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E43F335-9A92-41E3-B21F-59BE5F46E6CE}|KhumaloCraft\\KhumaloCraft.csproj|solutionrelative:khumalocraft\\migrations\\20240624000132_ishkarone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E43F335-9A92-41E3-B21F-59BE5F46E6CE}|KhumaloCraft\\KhumaloCraft.csproj|c:\\users\\ishka\\downloads\\new folder\\part 3\\khumalocraft\\khumalocraft\\properties\\publishprofiles\\khumalocraft20240624173145 - web deploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0E43F335-9A92-41E3-B21F-59BE5F46E6CE}|KhumaloCraft\\KhumaloCraft.csproj|solutionrelative:khumalocraft\\properties\\publishprofiles\\khumalocraft20240624173145 - web deploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E43F335-9A92-41E3-B21F-59BE5F46E6CE}|KhumaloCraft\\KhumaloCraft.csproj|c:\\users\\ishka\\downloads\\new folder\\part 3\\khumalocraft\\khumalocraft\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E43F335-9A92-41E3-B21F-59BE5F46E6CE}|KhumaloCraft\\KhumaloCraft.csproj|solutionrelative:khumalocraft\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\ishka\\Downloads\\New folder\\Part 3\\KhumaloCraft\\KhumaloCraft\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "KhumaloCraft\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\ishka\\Downloads\\New folder\\Part 3\\KhumaloCraft\\KhumaloCraft\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "KhumaloCraft\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAEkCAAAAAAAAAAAAAE8CAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:37:08.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240624000132_ishkarOne.cs",
+              "DocumentMoniker": "C:\\Users\\ishka\\Downloads\\New folder\\Part 3\\KhumaloCraft\\KhumaloCraft\\Migrations\\20240624000132_ishkarOne.cs",
+              "RelativeDocumentMoniker": "KhumaloCraft\\Migrations\\20240624000132_ishkarOne.cs",
+              "ToolTip": "C:\\Users\\ishka\\Downloads\\New folder\\Part 3\\KhumaloCraft\\KhumaloCraft\\Migrations\\20240624000132_ishkarOne.cs",
+              "RelativeToolTip": "KhumaloCraft\\Migrations\\20240624000132_ishkarOne.cs",
+              "ViewState": "AgIAALkBAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:36:49.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KhumaloCraft20240624173145 - Web Deploy.pubxml",
+              "DocumentMoniker": "C:\\Users\\ishka\\Downloads\\New folder\\Part 3\\KhumaloCraft\\KhumaloCraft\\Properties\\PublishProfiles\\KhumaloCraft20240624173145 - Web Deploy.pubxml",
+              "RelativeDocumentMoniker": "KhumaloCraft\\Properties\\PublishProfiles\\KhumaloCraft20240624173145 - Web Deploy.pubxml",
+              "ToolTip": "C:\\Users\\ishka\\Downloads\\New folder\\Part 3\\KhumaloCraft\\KhumaloCraft\\Properties\\PublishProfiles\\KhumaloCraft20240624173145 - Web Deploy.pubxml",
+              "RelativeToolTip": "KhumaloCraft\\Properties\\PublishProfiles\\KhumaloCraft20240624173145 - Web Deploy.pubxml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-12-04T15:32:02.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ishka\\Downloads\\New folder\\Part 3\\KhumaloCraft\\KhumaloCraft\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "KhumaloCraft\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ishka\\Downloads\\New folder\\Part 3\\KhumaloCraft\\KhumaloCraft\\appsettings.Development.json",
+              "RelativeToolTip": "KhumaloCraft\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-04T15:21:16.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ishka\\Downloads\\New folder\\Part 3\\KhumaloCraft\\KhumaloCraft\\appsettings.json",
+              "RelativeDocumentMoniker": "KhumaloCraft\\appsettings.json",
+              "ToolTip": "C:\\Users\\ishka\\Downloads\\New folder\\Part 3\\KhumaloCraft\\KhumaloCraft\\appsettings.json",
+              "RelativeToolTip": "KhumaloCraft\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-04T15:21:14.328Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

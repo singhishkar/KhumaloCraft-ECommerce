@@ -1,0 +1,266 @@
+/* Add this CSS to your existing styles */
+
+html {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url('../images/african landscape background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+p, h1, h2, h3, h4, h5, h6, .table-striped th, .table-striped td, .table-bordered th, .table-bordered td{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.table-bordered {
+    background-color: black;
+}
+
+.links {
+    color: yellow;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+
+    .links:hover {
+        text-decoration: underline;
+    }
+
+.dropdown-item {
+    color: #ff4500;
+    background-color: #222;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card {
+    background: #222;
+    border: 4px solid #ff4500;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+.btn {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border: 3px solid #ff4500;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    color: #ff4500;
+    background: black;
+}
+
+    .btn:hover,
+    .btn:focus {
+        background: #ff4500;
+        color: black;
+        border-color: #ff4500;
+        transform: scale(1.05);
+    }
+
+.navbar {
+    background-color: #222;
+}
+
+.navbar-text,
+.nav-link, .navbar-nav .nav-link {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #ff4500 !important;
+    transition: transform 0.4s ease, color 0.4s ease;
+}
+
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link:focus {
+        color: white !important;
+        transform: scale(1.05);
+    }
+
+.navbar-brand {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white !important;
+    transition: transform 0.4s ease, color 0.4s ease;
+}
+
+    .navbar-brand:hover {
+        transform: scale(1.05);
+        color: #ff4500 !important;
+    }
+
+.white-text {
+    color: white;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-bg-info {
+    color: #fff !important;
+    background-color: #ff4500 !important;
+}
+
+/* Search bar */
+.input-group-text {
+    background-color: black;
+    color: #ff4500; /* Orange text color */
+    border-color: #ff4500; /* Orange border color */
+}
+
+.form-control {
+    background-color: black;
+    color: #ff4500; /* Orange text color */
+    border-color: #ff4500; /* Orange border color */
+    font-family: "Cinzel", serif;
+}
+
+/* Category dropdown */
+.form-select {
+    background-color: black;
+    color: #ff4500; /* Orange text color */
+    border-color: #ff4500; /* Orange border color */
+    font-family: "Cinzel", serif;
+}
+
+.form-control:focus {
+    background-color: black !important;
+    color: #ff4500 !important; /* Orange text color */
+    border-color: #ff4500 !important; /* Orange border color */
+    box-shadow: 0 0 0 0.25rem #ff4500 !important; /* Orange box shadow on focus */
+    font-family: "Cinzel", serif;
+}
+
+.form-control[type="file"]::-webkit-file-upload-button {
+    background-color: black !important;
+    color: #ff4500 !important; /* Orange text color */
+    border-color: #ff4500 !important; /* Orange border color */
+    box-shadow: 0 0 0 0.25rem #ff4500 !important; /* Orange box shadow on focus */
+    font-family: "Cinzel", serif;
+}
+
+/* New CSS class for "Out of stock" message */
+.out-of-stock {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border: 3px solid red;
+    padding: 5px 8px;
+    color: red;
+    background: black;
+    text-decoration: none;
+    display: block;
+    width: calc(100% - 2rem); /* Full width minus padding */
+    margin: 0 1rem; /* Padding on either side */
+    text-align: center; /* Center text */
+}
+
+/* Full-width button with padding */
+.btn-full-width {
+    width: calc(100% - 2rem); /* Full width minus padding */
+    margin: 0 1rem; /* Padding on either side */
+}
+
+/* Custom green button styles */
+.green-button {
+    background-color: #28a745; /* Green background */
+    border-color: #28a745; /* Green border */
+    color: white; /* White text */
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0.5rem 1rem;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: all 0.4s ease; /* Transition like your other buttons */
+    width: calc(100% - 2rem); /* Full width minus padding */
+    margin: 1rem; /* Add some margin for spacing */
+    font-size: 1.25rem; /* Larger font size */
+    text-decoration: none; /* Remove underline */
+}
+
+    .green-button:hover {
+        background-color: #218838; /* Darker green on hover */
+        border-color: #1e7e34; /* Darker green border on hover */
+        color: white; /* Ensure text stays white on hover */
+        transform: scale(1.05); /* Add scale transform on hover */
+    }
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: black;
+    background-clip: padding-box;
+    border: #ff4500 !important;
+    border-radius: .3rem;
+    outline: 0;
+}
+
+.modal-title {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #ff4500;
+}
+
