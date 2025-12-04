@@ -1,1 +1,93 @@
+## KhumaloCraft ASP.NET Core MVC .gitignore file
 
+###########################
+# General Visual Studio Files
+###########################
+# Visual Studio Solution User Options (temporary state file)
+*.suo
+
+# Common Visual Studio temporary and helper files
+*.vstemplate
+*.user
+*.bak
+*.vspscc
+*.vssscc
+
+# Visual Studio Code configuration folder
+.vscode/
+
+---
+
+###########################
+# Build and Output Files
+###########################
+# Binary and intermediate build folders for all platforms
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Aa]rm64/
+[Aa]rm/
+[Xx]64/
+[Xx]86/
+
+# Compiled packages, libraries, and executables
+*.nupkg
+*.snupkg
+*.dll
+*.exe
+
+# Logs, debugging symbols, and temporary files
+*.log
+*.pdb
+*.tlb
+*.tlh
+*.tmp
+
+---
+
+###########################
+# ASP.NET Core and Web
+###########################
+# User secrets file (contains local sensitive data)
+**/secrets.json
+
+# Azure publishing profile files
+*.pubxml
+*.azurePubxml
+
+# Generated client-side library and distribution folders
+wwwroot/lib/
+wwwroot/dist/
+
+---
+
+###########################
+# Local Settings and Data
+###########################
+# SQL Server Express LocalDB files
+*.mdf
+*.ldf
+
+# SQLite database files (for local development/testing)
+*.db
+*.sqlite
+*.sqlite3
+
+# Unit test results folder
+TestResults/
+
+# JetBrains IDE (Rider/Resharper) configuration files
+*.ReSharperManagedFiles
+*.resharper
+*.userprefs
+
+---
+
+###########################
+# Mac OS X and Linux
+###########################
+# macOS system files
+.DS_Store
+# Linux/Unix backup files
+*~
