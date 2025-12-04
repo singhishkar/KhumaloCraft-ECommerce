@@ -11,12 +11,12 @@
 ✨ 1. [**Introduction**](#-1-introduction)<br>
 💻 2. [**Setting Up the Project Locally**](#-2-setting-up-the-project-locally)<br>
 ✅ 3. [**Features and Functionality**](#-3-features-and-functionality)<br>
-🖼️ 4. [**Screenshots**](#️-5-screenshots)<br>
-🏗️ 5. [**Architecture**](#️-6-architecture)<br>
-👥 6. [**Author and Contributions**](#-7-author-and-contributions)<br>
-⚖️ 7. [**MIT License**](#️-8-mit-license)<br>
-❓ 8. [**Frequently Asked Questions (FAQ)**](#-9-frequently-asked-questions-faq)<br>
-📚 9. [**References**](#-10-references)<br>
+🖼️ 4. [**Screenshots**](#️-4-screenshots)<br>
+🏗️ 5. [**Architecture**](#️-5-architecture)<br>
+👥 6. [**Author and Contributions**](#-6-author-and-contributions)<br>
+⚖️ 7. [**MIT License**](#️-7-mit-license)<br>
+❓ 8. [**Frequently Asked Questions (FAQ)**](#-8-frequently-asked-questions-faq)<br>
+📚 9. [**References**](#-9-references)<br>
 
 ---
 
@@ -29,7 +29,6 @@ The **KhumaloCraft Emporium project** is a **comprehensive C# web application** 
 - Web application developed using **ASP.NET**.
 - Easily deployable on **Azure App Service** (Windows) for global accessibility.
 - Integration with an **Azure SQL Database** to store user, product, and transaction data.
-- Implementation of **Azure Cognitive Search** for efficient, full-text product searching, utilizing cognitive skills to enhance search functionality.
 - Coordination of the order processing workflow (inventory update, payment processing, order confirmation) using **Azure Durable Functions**.
 
 ### Overview of Part 2 and Part 3 (KhumaloCraft E-Commerce)
@@ -38,7 +37,7 @@ The development of the **KhumaloCraft application** followed a staged approach, 
 
 **Part 2** focused on transforming the basic web application from Part 1 into a functional e-commerce backend by implementing data persistence and transaction capabilities. This involved designing and developing a SQL Server database to store user, product, and transaction-related data. The database was deployed on Azure, and its data was integrated into the web application's My Work page, replacing the initial static product details. Crucial features added in this part included allowing users to insert data via the web application, and enabling clients to place orders and view their previous orders, while KhumaloCraft users could see and process these orders.
 
-**Part 3** enhanced the application with advanced Azure services to improve user experience and automation. The primary additions were the integration of Azure Cognitive Search and Azure Durable Functions. The Cognitive Search engine provides sophisticated, full-text product search functionality. Durable Functions were implemented to manage the complex, multi-step order processing workflow, automating tasks like inventory updates and notification sending using orchestrator and activity functions. Essentially, **Part 2 established the core transaction and data infrastructure**, and **Part 3 added intelligent search and streamlined workflow automation** using advanced serverless features. **No external API's or payment gateways** were included in either part of this application.
+**Part 3** enhanced the application with advanced Azure services to improve user experience and automation. The primary additions were the integration of Azure Durable Functions. Durable Functions were implemented to manage the complex, multi-step order processing workflow, automating tasks like inventory updates and notification sending using orchestrator and activity functions. Essentially, **Part 2 established the core transaction and data infrastructure**, and **Part 3 added intelligent search and streamlined workflow automation** using advanced serverless features. **No external API's or payment gateways** were included in either part of this application.
 
 ---
 
@@ -215,8 +214,6 @@ The application connects to a **SQL database**. You must configure the connectio
   },
   // You must provide real credentials here to connect to Azure services
   "AzureSettings": {
-    "CognitiveSearchUri": "YOUR_AZURE_COGNITIVE_SEARCH_SERVICE_URI",
-    "CognitiveSearchApiKey": "YOUR_AZURE_COGNITIVE_SEARCH_API_KEY",
     "DurableFunctionsBaseUri": "YOUR_DURABLE_FUNCTIONS_BASE_URI",
     "DurableFunctionsAppKey": "YOUR_DURABLE_FUNCTIONS_HOST_KEY"
   },
@@ -270,14 +267,13 @@ dotnet run
 
 #### Note: Using Azure Features
 
-- To fully test the **Azure Cognitive Search** functionality, the `AzureSettings` in your `appsettings.json` must contain valid credentials for your deployed **Azure Search service**.
 - To test the **Order Processing Workflow** via **Azure Durable Functions**, the `AzureSettings` must contain valid URIs and keys for your deployed **Azure Functions App**. Without these, the associated features (**like full-text search and order fulfillment**) will not work correctly.
 
 ---
 
 ## ✅ 3. Features and Functionality
 
-## Data Management and Persistence
+### Data Management and Persistence
 
 - **Database System**: Utilizes a SQL Server database to store all application data.
 - **Data Entities**: The database is structured to store necessary entities, including:
@@ -287,16 +283,13 @@ dotnet run
 - **Dynamic Data Display**: Dynamically retrieves and displays craftwork details from the database, replacing the initial static content.
 - **Product Information Display**: Displays key product information, including the product name, price, category, and availability.
 
-## User & Customer Functionality
+### User & Customer Functionality
 
 - **User Identity**: Includes **ASP.NET Core Identity** for secure user authentication, registration, and authorization (required for user, client, and KhumaloCraft users).
 - **Client Ordering**: Clients have the ability to place orders for a craftwork they wish to purchase. (simulated)
 
-## Advanced Azure Services Integration (Part 3)
+### Advanced Azure Services Integration (Part 3)
 
-- **Azure Cognitive Search**: Integration of a cognitive search engine to enhance user search capabilities.
-  - **Full-Text Product Search**: Enables clients to use a range of full-text searches to find specific products, returning relevant results.
-  - **Cognitive Skills**: The search implementation utilizes cognitive skills to improve the user's search experience and functionality.
 - **Azure Durable Functions** (Order Workflow Automation): Implements a serverless function workflow to manage multi-step processes.
   - **Orchestrator Function**: Coordinates the different, complex steps in the order processing workflow (e.g., inventory updates, payment, confirmation).
   - **Inventory Management**: An activity function is dedicated to inventory-related tasks, ensuring the inventory is updated immediately after an order is placed.
@@ -359,7 +352,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-## ❓ 9. Frequently Asked Questions (FAQ)
+## ❓ 8. Frequently Asked Questions (FAQ)
 
 ## Frequently Asked Questions (FAQ) ❓
 
@@ -496,4 +489,3 @@ If the application fails to start, consider the following troubleshooting steps:
 - **YouTube, n.d. Authentication Tutorial.** [online] _[youtube.com](https://www.youtube.com/watch?v=qvsWwwq2ynE)_ [Accessed 14 May 2024].
 - **YouTube, n.d. Authorization Roles Tutorial.** [online] _[youtube.com](https://www.youtube.com/watch?v=ghzvSROMo_M)_ [Accessed 1 June 2024].
 - **YouTube, n.d. Azure Search Overview.** [online] _[youtube.com](https://www.youtube.com/watch?v=g15mF_XAOB8&t=309s)_ [Accessed 24 June 2024].
-
