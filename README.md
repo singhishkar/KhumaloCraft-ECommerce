@@ -306,7 +306,7 @@ dotnet run
 ## 🖼️ 4. Screenshots
 
 |                  Heading                   |                                                 Description                                                 |                          Image / Screenshots                          |
-| :----------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------: |
+| :----------------------------------------: | :--------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------: |
 |           **Welcome/Home Page**            |                              Welcomes user to the site and browse to products.                              |                  ![Home Page](Screenshots/Home.png)                   |
 |       **My Work Page/Products Page**       |                                    List of available products or items.                                     |       ![My Work Page/Products Page](Screenshots/MyWorkPage.png)       |
 |         **Products Continued...**          |                             Scrollable view showing remaining product listings.                             |            ![Products Continued](Screenshots/Products.png)            |
