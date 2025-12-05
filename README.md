@@ -6,25 +6,18 @@
 
 ---
 
-## 🔑 Admin Login Credentials
-**Email**: _admin@gmail.com_ <br>
-**Password**: _Admin@123_ <br>
-> ⚠️ **Note**: For demonstration purposes, the Admin credentials are given to sign in directly. <br>
-> This approach is **not recommended** for production environments. In a real deployment, several administrator accounts would be pre-seeded and roles securely assigned through controlled provisioning processes. <br>
-
----
-
 ## 📑 Table of Contents
 
 ✨ 1. [**Introduction**](#-1-introduction)<br>
 💻 2. [**Setting Up the Project Locally**](#-2-setting-up-the-project-locally)<br>
 ✅ 3. [**Features and Functionality**](#-3-features-and-functionality)<br>
 🖼️ 4. [**Screenshots**](#️-4-screenshots)<br>
-🏗️ 5. [**Architecture**](#️-5-architecture)<br>
-👥 6. [**Author and Contributions**](#-6-author-and-contributions)<br>
-⚖️ 7. [**MIT License**](#️-7-mit-license)<br>
-❓ 8. [**Frequently Asked Questions (FAQ)**](#-8-frequently-asked-questions-faq)<br>
-📚 9. [**References**](#-9-references)<br>
+🔑 5. [**Admin Login Credentials**](#-5-admin-login-credentials)<br>
+🏗️ 6. [**Architecture**](#️-6-architecture)<br>
+👥 7. [**Author and Contributions**](#-7-author-and-contributions)<br>
+⚖️ 8. [**MIT License**](#️-8-mit-license)<br>
+❓ 9. [**Frequently Asked Questions (FAQ)**](#-9-frequently-asked-questions-faq)<br>
+📚 10. [**References**](#-10-references)<br>
 
 ---
 
@@ -313,20 +306,30 @@ dotnet run
 
 ## 🖼️ 4. Screenshots
 
-|                  Heading                   |                                                 Description                                                 |                          Image / Screenshots                          |
-| :----------------------------------------: | :--------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------: |
-|           **Welcome/Home Page**            |                              Welcomes user to the site and browse to products.                              |                  ![Home Page](Screenshots/Home.png)                   |
-|       **My Work Page/Products Page**       |                                    List of available products or items.                                     |       ![My Work Page/Products Page](Screenshots/MyWorkPage.png)       |
-|         **Products Continued...**          |                             Scrollable view showing remaining product listings.                             |            ![Products Continued](Screenshots/Products.png)            |
-|          **Adding Items To Cart**          |                                   Users cart after adding items to cart.                                    |             ![Adding Items To Cart](Screenshots/Cart.png)             |
-|            **Checkout Details**            |  Users input checkout details (name, email, cell number, address, purchase type) before confirming order.   |             ![Checkout Details](Screenshots/Checkout.png)             |
-|        **Order Successful Message**        |           The confirmation screen displayed to the user after a successful purchase transaction.            |     ![Order Successful Message](Screenshots/CheckoutSuccess.png)      |
+|                  Heading                   | Description                                                                                                 |                          Image / Screenshots                          |
+| :----------------------------------------: | :---------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------: |
+|           **Welcome/Home Page**            | Welcomes user to the site and browse to products.                                                           |                  ![Home Page](Screenshots/Home.png)                   |
+|       **My Work Page/Products Page**       | List of available products or items.                                                                        |       ![My Work Page/Products Page](Screenshots/MyWorkPage.png)       |
+|         **Products Continued...**          | Scrollable view showing remaining product listings.                                                         |            ![Products Continued](Screenshots/Products.png)            |
+|          **Adding Items To Cart**          | Users cart after adding items to cart.                                                                      |             ![Adding Items To Cart](Screenshots/Cart.png)             |
+|            **Checkout Details**            | Users input checkout details (name, email, cell number, address, purchase type) before confirming order.    |             ![Checkout Details](Screenshots/Checkout.png)             |
+|        **Order Successful Message**        | The confirmation screen displayed to the user after a successful purchase transaction.                      |     ![Order Successful Message](Screenshots/CheckoutSuccess.png)      |
 | **CRUD functionality (Admin): Categories** | Admin interface showing the ability to **C**reate, **R**ead, **U**pdate, and **D**elete product categories. | ![CRUD functionality (Admin): Categories](Screenshots/Categories.png) |
-|  **Stock/Inventory Updated in real time**  |   Products page highlighting the dynamic display of product stock levels following a purchase or update.    |  ![Stock/Inventory Updated in real time](Screenshots/Inventory.png)   |
+|  **Stock/Inventory Updated in real time**  | Products page highlighting the dynamic display of product stock levels following a purchase or update.      |  ![Stock/Inventory Updated in real time](Screenshots/Inventory.png)   |
 
 ---
 
-## 🏗️ 5. Architecture
+## 🔑 5. Admin Login Credentials
+
+**Email**: \_admin@gmail.com_ <br>
+**Password**: _Admin@123_ <br>
+
+> ⚠️ **Note**: For demonstration purposes, the Admin credentials are given to sign in directly.
+> This approach is **not recommended** for production environments. In a real deployment, several administrator accounts would be pre-seeded and roles securely assigned through controlled provisioning processes.
+
+---
+
+## 🏗️ 6. Architecture
 
 ### Application Structure (ASP.NET Core MVC)
 
@@ -338,7 +341,7 @@ The application code adheres to the **MVC pattern**, which ensures a clear separ
 
 ---
 
-## 👥 6. Author and Contributions
+## 👥 7. Author and Contributions
 
 ### Primary Developer:
 
@@ -363,7 +366,7 @@ The application code adheres to the **MVC pattern**, which ensures a clear separ
 
 ---
 
-## ⚖️ 7. MIT License
+## ⚖️ 8. MIT License
 
 **Copyright © 2025 KhumaloCraft E-Commerce**<br>
 **Copyright © 2025 KhumaloCraft**<br>
@@ -377,9 +380,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-## ❓ 8. Frequently Asked Questions (FAQ)
-
-## Frequently Asked Questions (FAQ) ❓
+## ❓ 9. Frequently Asked Questions (FAQ)
 
 ### 1. What is KhumaloCraft Emporium?
 
@@ -496,7 +497,7 @@ If the application fails to start, consider the following troubleshooting steps:
 
 ---
 
-## 📚 9. References
+## 📚 10. References
 
 - **Azure, n.d. Azure SDK for .NET.** [online] _[github.com](https://github.com/Azure/azure-sdk-for-net/)_ [Accessed 12 April 2024].
 - **BroCode, n.d. C# for Beginners.** [online] _[youtube.com](https://www.youtube.com/watch?v=4BwyqmRTrx8)_ [Accessed 3 May 2024].
