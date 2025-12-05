@@ -7,7 +7,7 @@
 ---
 
 ## 🔑 Admin Login Credentials
-**Email**: _admin@gmail.com_ <br>
+**Email**: _\admin@gmail.com_ <br>
 **Password**: _Admin@123_ <br>
 
 ---
