@@ -9,6 +9,8 @@
 ## 🔑 Admin Login Credentials
 **Email**: _admin@gmail.com_ <br>
 **Password**: _Admin@123_ <br>
+> ⚠️ **Note**: For demonstration purposes, the Admin credentials are given to sign in directly. <br>
+> This approach is **not recommended** for production environments. In a real deployment, several administrator accounts would be pre-seeded and roles securely assigned through controlled provisioning processes. <br>
 
 ---
 
