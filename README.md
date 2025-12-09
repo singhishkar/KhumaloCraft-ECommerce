@@ -25,7 +25,7 @@
 
 The **KhumaloCraft Emporium project** is a **comprehensive C# web application** developed to realize a global e-commerce platform for handcrafted products from artisans worldwide. The goal is to create a scalable, accessible, and user-friendly platform that connects artisans with customers globally, enabling them to access and order craftwork. The application is built using **ASP.NET MVC Core** and leverages **Microsoft Azure services** for deployment, database management, and advanced features. It includes essential informational pages—Home, About Us, Contact Us, and My Work—to advertise KhumaloCraft's services and showcase the available products. The development process focuses on demonstrating an understanding of cloud computing, designing an efficient database, and integrating advanced cloud functionalities to deliver a rich user experience.
 
-### Technical Features:
+### Technical Highlights:
 
 - Web application developed using **ASP.NET**.
 - Easily deployable on **Azure App Service** (Windows) for global accessibility.
