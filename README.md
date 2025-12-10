@@ -270,7 +270,6 @@ dotnet run
 - Open your web browser and navigate to the displayed URL (e.g., `https://localhost:7198`). You should now see the **KhumaloCraft Emporium home page**.
 
 > #### ⚠️ Note: Using Azure Features
-
 > - To test the **Order Processing Workflow** via **Azure Durable Functions**, the `AzureSettings` must contain valid URIs and keys for your deployed **Azure Functions App**. Without these, the associated features (**like full-text search and order fulfillment**) will not work correctly.
 
 ---
